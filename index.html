@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zalazar Guillermo</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <header class="encabezado">
+        <nav class="navegacion efecto-nav">
+            <a class="navegacion__enlace" href="#presentacion">
+                <h2 class="navegacion__titulo">Zalazar Guillermo</h2>
+            </a>
+            <ul class="enlaces"> <!--Lista desordenada-->
+                <li class="enlaces__item"> <!--Elemento lista-->
+                    <a 
+                    class="enlaces__enlace boton" 
+                    href="#presentacion"
+                    role="button"
+                    >Inicio</a>
+                </li>
+                <li class="enlaces__item">
+                    <a 
+                    class="enlaces__enlace boton" 
+                    href="#sobre-mi"
+                    role="button"
+                    >Sobre mi</a>
+                </li>
+                <li class="enlaces__item">
+                    <a 
+                    class="enlaces__enlace boton" 
+                    href="#proyectos"
+                    role="button"
+                    >Proyectos</a>
+                </li>
+                <li class="enlaces__item">
+                    <a 
+                    class="enlaces__enlace boton" 
+                    href="#contacto"
+                    role="button"
+                    >Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <section class="presentacion" id="presentacion">
+            <div class="presentacion__contenedor efecto-cristal">
+                <img 
+                    class="presentacion__foto"
+                    src="./assets/images/profile/perfil1.png" 
+                    alt="foto persona"
+                 /> 
+                <div class="presentacion__info" id="sobre-mi" >
+                    <h1 class="presentacion__titulo">Acerca de mi</h1>
+                    <p class="presentacion__parrafo">Estudiante de Ingeniería en Sistemas, poseo conocimientos
+                        teóricos en áreas como Análisis de Sistemas, POO, Estructuras de
+                        Datos. Busco una oportunidad para aplicar mis conocimientos,
+                        colaborar con profesionales del sector y contribuir en proyectos.                        
+                    </p>
+                    <a 
+                    class="presentacion__cv"
+                    href="./assets/CV/Zalazar_Guillermo.pdf"
+                    download="Zalazar_Guillermo.pdf">Ver CV
+                    </a>
+                </div>
+            </div>
+    
+        </section>
+
+        <section class="proyectos proyectos-fondo" id="proyectos">
+            <h2 class="proyectos__titulo titulo-grande">Mis Proyectos</h2>
+            <div class="proyectos__contenedor">
+                <article class="proyectos__numero grid__item">
+                    <div class="proyectos__imagen1">
+                    </div>
+                    <div class="proyectos__contenido">
+                      <h1 class="proyectos__titulo">Este es mi primer proyecto</h1>
+                      <p class="proyectos__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quisquam. Sequi cum odio provident placeat cupiditate amet enim! Esse soluta laboriosam possimus voluptates molestiae ipsa maiores! Accusamus animi quibusdam sed?
+                      </p>
+                    </div>
+                    <a 
+                        target="_blank" 
+                        class="boton boton_oscuro ver_p" 
+                        >Ver Proyecto</a>
+                </article>
+    
+                <article class="proyectos__numero grid__item">
+                    <div class="proyectos__contenido">
+                        <h1 class="proyectos__titulo" style="color: black;">Este es mi primer proyecto</h1>
+                        <p class="proyectos__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quisquam. Sequi cum odio provident placeat cupiditate amet enim! Esse soluta laboriosam possimus voluptates molestiae ipsa maiores! Accusamus animi quibusdam sed?
+                        </p>
+                        <div class="proyectos__imagen2">
+                        </div>
+                    
+                    </div>
+                    <a 
+                        target="_blank" 
+                        class="boton boton_oscuro ver_p" 
+                        >Ver Proyecto</a>
+                    
+                </article>
+                <article class="proyectos__numero grid__item">
+                  <div class="proyectos__imagen3">
+                  </div>
+                    <div class="proyectos__contenido">
+                      <h1 class="proyectos__titulo">Este es mi primer proyecto</h1>
+                      <p class="proyectos__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, quisquam. Sequi cum odio provident placeat cupiditate amet enim! Esse soluta laboriosam possimus voluptates molestiae ipsa maiores! Accusamus animi quibusdam sed?
+                      </p>
+                    </div>
+                    <a 
+                        target="_blank" 
+                        class="boton boton_oscuro ver_p" 
+                        >Ver Proyecto</a>
+                </article>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="pie_de_pagina" role="contentinfo">
+      <div class="pie_de_pagina__columna">
+            <h4 class="pie_de_pagina__titulo_columna"
+            >Mis Redes</h4>
+            <ul class="pie_de_pagina__enlaces">
+                <li class="enlaces__item2">
+                    <a 
+                    class="enlaces__red"
+                    href="https://github.com/"
+                    ><img
+                    src="assets/logos/github-logo.png"
+                    class="enlaces__icono"
+                    ></a>
+                    
+                </li>
+                <li class="enlaces__item2">
+                    <a
+                    href="https://instagram.com"
+                    class="enlaces__red"
+                    ><img
+                    src="./assets/logos/ig-logo.png"
+                    class="enlaces__icono"
+                    ></a>
+                </li>
+                <li class="enlaces__item2">
+                    <a
+                    href="https://twitter.com/"
+                    class="enlaces__red"
+                    ><img
+                    src="assets/logos/x-logo.png"
+                    class="enlaces__icono"
+                    ></a>
+                </li>
+            </ul>
+      </div>
+
+      <div class="pie_de_pagina__columna columna2">
+        <h4 class="pie_de_pagina__titulo_columna" id="contacto">Contactame</h4>
+        <ul class="pie_de_pagina__enlaces">
+          <li class="enlaces__item2">
+            <a
+              class="enlaces__red"
+              href="mailto:guillezal153@gmail.com"
+              target="_blank"
+              >Mail: guillezal153@gmail.com</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="pie_de_pagina__copyright">
+        <p>©️Copyright 2024</p>
+      </div>
+</body>
+</html>
